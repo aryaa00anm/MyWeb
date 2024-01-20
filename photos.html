@@ -1,0 +1,92 @@
+<html>
+
+<head>
+  <title>Gallery</title>
+  <style type="text/css">
+    h1 {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 75px;
+      color: #5E548E;
+    }
+
+    h2 {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 45px;
+      color: #5E548E;
+    }
+
+    a {
+      color: #FF6B6B;
+    }
+
+    p {
+      color: #3D405B;
+      border: 1px solid #FF6B6B;
+    }
+
+    footer {
+      background-color: #2C3E50;
+
+    }
+
+    .gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.gallery img {
+	width: 30%;
+	margin-bottom: 1em;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+	.gallery img {
+		width: 45%;
+	}
+}
+
+@media (max-width: 480px) {
+	.gallery img {
+		width: 100%;
+	}
+}
+  </style>
+</head>
+
+<body bgcolor="#F4EFEA">
+
+  <p>Please wait a moment till the images load...
+  </p>
+
+	<div class="gallery">
+		<img src="gallery/bass1.jpg" alt="Image 1">
+		<img src="gallery/bass2.jpg" alt="Image 2">
+		<img src="gallery/christmas1.jpg" alt="Image 3">
+		<img src="gallery/christmas2.jpg" alt="Image 4">
+		<img src="gallery/christmas3.jpg" alt="Image 5">
+		<img src="gallery/christmas4.jpg" alt="Image 6">
+		<img src="gallery/peters1.jpg" alt="Image 7">
+		<img src="gallery/tomodachis1.jpg" alt="Image 8">
+		<img src="gallery/peters2.jpg" alt="Image 9">
+    <img src="gallery/me1.webp" alt="Image 10">
+    <img src="gallery/teach1.jpg" alt="Image 11">
+    <img src="gallery/teach2.jpg" alt="Image 12">
+    <img src="gallery/troph1.jpg" alt="Image 13">
+
+	</div>
+
+
+
+
+  <hr width="100%" size="15px" color="#2C3E50">
+  <br><br><br><br><br><br><br>
+  <a href="index.html">RETURN TO HOME PAGE</a>
+
+  <footer>
+    <p>Copyright © 2024 My Website</p>
+  </footer>
+</body>
+
+</html>
